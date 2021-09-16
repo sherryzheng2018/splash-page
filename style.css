@@ -1,3 +1,39 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 30px;
     background: lemonchiffon;
+    color:rgb(102, 99, 74);
+    text-align: center;
+}
+
+
+nav {
+    top: 0px;
+    border-bottom: 10px solid rgb(72, 80, 5);
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+   }
+
+.bar {
+    background-color: rgb(203, 204, 190);
+    width: 100%;
+    color:sandybrown;
+    position: fixed;
+}
+
+footer {
+    margin-top: 100px;
 }

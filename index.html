@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
+
 <body>
-    <h1>Golden retreiver is the best!</h1>
-    <img src="Golden-Retriever-Slide-11.jpg" alt="cute golden retreiver">
+    <nav class="bar">
+        <ul>
+            <li><a href="https://grca.org/" target="_blank">Club</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank">Info</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to the golden retreiver family</h1>
+        <h2>Come and see these cuites!</h2>
+    </header>
+    <main>
+        <img src="./Golden-Retriever-Slide-11.jpg" alt="cute golden retriver">
+        <img src="./Golden-Retriever-puppy-standing-outdoors-500x486.jpg" alt="cute golden puppy">
+        <h3>We'd love to hear from you!</h3>
+            <form id="contact">
+                <label for="username">Your Name:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" required><br><br>
+                <label for="subject">Subject</label><br>
+                <textarea name="subject" placeholder="Tell us something about your golden retreiver..." style="height: 100px; width: 200px;"></textarea> <br>
+                <input type="submit" value="Send">
+            </form> 
+    </main>
+
+    <footer>Designed by Sherry with love</footer>
 </body>
 </html>
